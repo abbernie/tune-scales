@@ -4,7 +4,7 @@
 
 **Overview:** Tune.js is a web audio tuning library of microtonal and just intonation scales. Tune.js supports over 3,000 historical tunings and temperaments, ported from the vast [Scala](http://www.huygens-fokker.org/scala/) tuning archive via the Microtuner files [compiled and documented by Victor Cerullo](http://www.venetica.net/Sites/16tone/mtx_file_specs.htm).
 
-This specific repo contains all the tunings in Tune.js, both as a single file (tunings.js) and as individual JSON files that can be imported selectively. These tunings are designed to be used with the [standalone Tune.js API][https://github.com/abbernie/tune-api], which doesn't include any tunings by default.
+This specific repo contains all the tunings in Tune.js, both as a single file (tunings.js) and as individual JSON files that can be imported selectively. These tunings are designed to be used with the [standalone Tune.js API](https://github.com/abbernie/tune-api), which doesn't include any tunings by default.
 
 By separating these into two separate repos you can choose exactly what tunings you want to import, and where the tunings are located on your server, independently of the location of the API. However, the easiest way to use Tune.js is to just download a single file that contains both the API and all the tunings; you can do this using the [main tune.js repo](https://github.com/abbernie/tune).
 
